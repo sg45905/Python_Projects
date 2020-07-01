@@ -1,3 +1,7 @@
+'''
+@author - Sarthak Gupta
+'''
+
 from food import Food
 from drink import Drink
 

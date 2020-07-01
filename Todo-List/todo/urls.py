@@ -1,3 +1,7 @@
+'''
+@author - Sarthak Gupta
+'''
+
 from django.urls import path
 from .views import index, addTodo, completeTodo, deletecompleted, deleteall
 

@@ -1,3 +1,7 @@
+'''
+@author - Sarthak Gupta
+'''
+
 # define the menu item class
 class MenuItem:
     def __init__(self, name, price):

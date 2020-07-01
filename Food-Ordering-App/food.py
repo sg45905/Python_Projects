@@ -1,3 +1,7 @@
+'''
+@author - Sarthak Gupta
+'''
+
 from menu_item import MenuItem
 
 # define the eatable menu item class - inherit menu class

@@ -1,3 +1,7 @@
+'''
+@author - Sarthak Gupta
+'''
+
 from menu_item import MenuItem
 
 # define the drinkable menu item class - inherit menu item class

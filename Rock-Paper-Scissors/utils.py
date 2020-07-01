@@ -1,3 +1,7 @@
+'''
+@author - Sarthak Gupta
+'''
+
 # define the the validate mathod to check player select valid move
 def validate(hand):
     if hand < 0 or hand > 2:

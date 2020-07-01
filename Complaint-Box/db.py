@@ -1,3 +1,7 @@
+'''
+@author - Sarthak Gupta
+'''
+
 import sqlite3
 
 # define database connection

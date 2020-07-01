@@ -1,3 +1,7 @@
+'''
+@author - Sarthak Gupta
+'''
+
 # main program
 from Hotel import HotelFareCal
 

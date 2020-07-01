@@ -1,3 +1,7 @@
+'''
+@author - Sarthak Gupta
+'''
+
 import turtle
 import math
 

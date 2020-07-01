@@ -1,3 +1,7 @@
+'''
+@author - Sarthak Gupta
+'''
+
 # calculate total fare
 class HotelFareCal:
     def __init__(self, room_total='', room_rent=0, game_bill=0, food_cost=0, laundry_bill=0, service_charge=1800, name='', address='', cin_date='', cout_date='', room_no=101):

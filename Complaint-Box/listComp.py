@@ -1,3 +1,7 @@
+'''
+@author - Sarthak Gupta
+'''
+
 from tkinter import *
 from tkinter.ttk import *
 
