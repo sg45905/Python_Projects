@@ -359,6 +359,7 @@ class TrjctrPrjctl:
             t = int((2 * self.u1 * math.sin(thtl * (math.pi/180))) / 9.8)
             r = int((math.pow(self.u1, 2) * math.sin(2*(thtl*(math.pi/180)))) / 9.8)
             h = int(math.pow((self.u1 * math.sin(thtl*(math.pi/180))), 2) / (2*9.8))
+            
             self.tf.set(str(t))
             self.rp.set(str(r))
             self.hp.set(str(h))
@@ -374,14 +375,6 @@ class TrjctrPrjctl:
             self.l3.grid(row=5+i, column=2)
             self.l4.grid(row=5+i, column=3)
             self.l5.grid(row=5+i, column=4)
-        
-        # with sqlite3.connect('E:/Documents/Programs/Python/Equation-Solver/cred.db') as db:
-        #     c = db.cursor()
-        
-        # msg = 'INSERT INTO eq (tp, frml, dt) values (?, ?, ?)'
-        # c.execute(msg, [('Height of Projection'), ('(u sin(θ)*(u sin(θ))) / 2*g'), (self.now)])
-        
-        # db.commit()
     
     def bck(self):
         self.master.destroy()
